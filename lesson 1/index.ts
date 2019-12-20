@@ -15,6 +15,7 @@ function fibanachi(n: number): array {
     f2 = temp + f1;
   }
   return arr
+
 }
 
 fibanachi();

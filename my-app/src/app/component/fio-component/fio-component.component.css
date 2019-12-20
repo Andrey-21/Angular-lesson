@@ -1,0 +1,12 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+  .container .info {
+    max-width: 170px; }
+  .container .name {
+    display: flex;
+    align-items: flex-end; }
+
+/*# sourceMappingURL=fio-component.component.css.map */
