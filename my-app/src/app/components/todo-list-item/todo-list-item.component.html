@@ -1,0 +1,11 @@
+<li class="list-group-item">
+  <h5 [ngClass]="{'title-task': item.isCompleted}">{{ item.title }}</h5>
+  <p>{{ item.body}}</p>
+  <div class="btn-group">
+    <button class="btn btn-danger" (click)="deleteItem()">Delete</button>
+    <button class="btn btn-primary"
+            (click)="completeItem()">
+     {{item.isCompleted ? 'Completed' : 'Complete'}}
+    </button>
+  </div>
+</li>

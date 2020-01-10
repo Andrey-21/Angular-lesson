@@ -1,4 +1,7 @@
-
-<app-fio-component></app-fio-component>
-<app-education></app-education>
-<app-job-expereance></app-job-expereance>
+<app-todo-form (submitEvent)='onFormSubmit($event)'></app-todo-form>
+<app-filter-list (todoEvent)="filterItem($event)"></app-filter-list>
+<app-todo-list
+  [list]="todoList"
+  (deleteEvent)="deleteTodoItem($event)"
+  (completeEvent)="completeTodoItem($event)">
+</app-todo-list>

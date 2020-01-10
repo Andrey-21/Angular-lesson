@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,4BAAY;EACV,eAAe,EAAE,YAAY;EAC7B,KAAK,EAAE,OAAO",
+"sources": ["todo-list-item.component.scss"],
+"names": [],
+"file": "todo-list-item.component.css"
+}
